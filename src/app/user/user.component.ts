@@ -12,7 +12,7 @@ export class UserComponent {
   @Input({ required: true }) name!: string;
 
   get imagePath() {
-    return 'assets/users/' + this.avatar;
+    return 'assets/users/' + this.avatar; 
   }
 
   onSelectUser() {}
